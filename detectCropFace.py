@@ -1,6 +1,6 @@
 import cv2
 
-# Load the pre-trained Haar cascade classifier for face detection
+# Load the pre-trained Haarcascade classifier for face detection
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 # Initialize the camera
